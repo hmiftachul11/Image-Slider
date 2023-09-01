@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Image Slider</h1>
+    <div class="container">
+      <img
+        class="slide"
+        src="https://images.unsplash.com/photo-1484788984921-03950022c9ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3032&q=80"
+        alt="White cup and MacBook"
+      />
+      <img
+        class="slide"
+        src="https://images.unsplash.com/photo-1652644827442-a18530bac2d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80"
+        alt="Car"
+      />
+      <img
+        class="slide"
+        src="https://images.unsplash.com/photo-1556225496-ff493e20d9a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80"
+        alt="At the exit of a cave. The silence reigned."
+      />
+      <img
+        class="slide"
+        src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80"
+        alt="Boathouse on a mountain lake"
+      />
+
+      <button id="prev" onclick="goPrev()" title="Prev">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+
+      <button id="next" onclick="goNext()" title="Next">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
